@@ -25,7 +25,7 @@
     <dependency>
       <groupId>eclipse-vertx</groupId>
       <artifactId>vert.x</artifactId>
-      <version>46a1854e2357452546deb65a9ead814a162b4a1b</version>
+      <version>4.0.3-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>vert-x3</groupId>
