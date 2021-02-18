@@ -23,18 +23,18 @@
   <dependencies>
    
     <dependency>
-      <groupId>eclipse-vertx</groupId>
+      <groupId>com.github.eclipse-vertx</groupId>
       <artifactId>vert.x</artifactId>
-      <version>4.0.3-SNAPSHOT</version>
+      <version>46a1854e2357452546deb65a9ead814a162b4a1b</version>
     </dependency>
     <dependency>
-      <groupId>vert-x3</groupId>
+      <groupId>com.github.vert-x3</groupId>
       <artifactId>vertx-codegen</artifactId>
       <optional>true</optional>
       <version>a004682663c68b8a6411c505ab447cce16c4403e</version>
     </dependency>
     <dependency>
-      <groupId>vert-x3</groupId>
+      <groupId>com.github.vert-x3</groupId>
       <artifactId>vertx-docgen</artifactId>
       <optional>true</optional>      
       <version>0bf464d6306078e7e3b4ae8271014210a635321e</version>
@@ -64,20 +64,20 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>eclipse-vertx</groupId>
+      <groupId>com.github.eclipse-vertx</groupId>
       <artifactId>vert.x</artifactId>
       <version>46a1854e2357452546deb65a9ead814a162b4a1b</version>
       <type>test-jar</type>
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>vert-x3</groupId>
+      <groupId>com.github.vert-x3</groupId>
       <artifactId>vertx-unit</artifactId>
       <scope>test</scope>
       <version>f89fb7ecc315a2215520a5bacafc14077a0b42bb</version>
     </dependency>
     <dependency>
-      <groupId>vert-x3</groupId>
+      <groupId>com.github.vert-x3</groupId>
       <artifactId>vertx-web</artifactId>
       <scope>test</scope>
       <version>5a97cf3290be5aa2f8a851f448ba8dc660627755</version>
@@ -111,11 +111,11 @@
   </dependencies>
 
   <repositories>
-		<repository>
-		    <id>jitpack.io</id>
-		    <url>https://jitpack.io</url>
-		</repository>
-	</repositories>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+    </repositories>
   
   <profiles>
     <profile>
