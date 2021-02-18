@@ -19,19 +19,14 @@
     <jar.manifest>${project.basedir}/src/main/resources/META-INF/MANIFEST.MF</jar.manifest>
   </properties>
 
-  <dependencyManagement>
-    <dependencies>
-      <dependency>
-        <groupId>io.vertx</groupId>
-        <artifactId>vertx-dependencies</artifactId>
-        <version>${stack.version}</version>
-        <type>pom</type>
-        <scope>import</scope>
-      </dependency>
-    </dependencies>
-  </dependencyManagement>
+ 
 
   <dependencies>
+    <dependency>
+	    <groupId>com.github.vert-x3</groupId>
+	    <artifactId>vertx-dependencies</artifactId>
+	    <version>2cbb5d52090585d03b212a9093d89ba44b74f4ca</version>
+	</dependency>
     <dependency>
       <groupId>io.vertx</groupId>
       <artifactId>vertx-core</artifactId>
@@ -113,6 +108,13 @@
 
   </dependencies>
 
+  <repositories>
+		<repository>
+		    <id>jitpack.io</id>
+		    <url>https://jitpack.io</url>
+		</repository>
+	</repositories>
+  
   <profiles>
     <profile>
       <id>rabbitmq.local</id>
