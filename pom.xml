@@ -64,24 +64,28 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>io.vertx</groupId>
-      <artifactId>vertx-core</artifactId>
+      <groupId>eclipse-vertx</groupId>
+      <artifactId>vert.x</artifactId>
+      <version>46a1854e2357452546deb65a9ead814a162b4a1b</version>
       <type>test-jar</type>
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>io.vertx</groupId>
+      <groupId>vert-x3</groupId>
       <artifactId>vertx-unit</artifactId>
       <scope>test</scope>
+      <version>f89fb7ecc315a2215520a5bacafc14077a0b42bb</version>
     </dependency>
     <dependency>
-      <groupId>io.vertx</groupId>
-      <artifactId>vertx-web-client</artifactId>
+      <groupId>vert-x3</groupId>
+      <artifactId>vertx-web</artifactId>
       <scope>test</scope>
+      <version>5a97cf3290be5aa2f8a851f448ba8dc660627755</version>
     </dependency>
     <dependency>
       <groupId>com.fasterxml.jackson.core</groupId>
       <artifactId>jackson-databind</artifactId>
+      <version>2.12.1</version>
       <scope>test</scope>
     </dependency>
 
